@@ -16,7 +16,7 @@ body {
     background: #fff;
     color:#000;}
 
-p,blockqoute {
+p,blockqoute, table {
     width: 70%;
     max-width: 800px;
     margin: auto;}
