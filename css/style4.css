@@ -11,16 +11,19 @@
 
 body { 
     width: 100%;
-    max-width: 800px;
     font-family: 'Open Sans', serif;
     margin: auto;
     background: #fff;
-    color:#000;
-    line-height: 1.5em;}
+    color:#000;}
+
+p,blockqoute {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;}
 
 /* -------HEADERS ------*/
 
-header {margin: 6em 0em}
+header {margin: 4em 0em 4em 0}
 
 h2 { font-weight: normal;
     color: #FFE822;
@@ -35,9 +38,9 @@ h4 {
 /*------- HEADERS, BLOCKQOUTE & PARAGRAPHS --------*/
 
 
-h2 { font-size: 1.8em;
-    margin-bottom: 1em;
-    margin-top:1em;
+h2 { font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top:2em;
     font-style: normal;
     text-transform: uppercase}
 
@@ -51,8 +54,9 @@ p { margin-bottom: 1.7em;
     font-size: 1em;
     text-align: justify;}
 
+
 blockquote {
-    padding: 1em 0 2em 0;
+    padding: 1em 0 1em 0;
     text-align: center;
     font-style:italic;
     font-size: 1.2em;
@@ -60,18 +64,24 @@ blockquote {
     hanging-punctuation: first;
     color: #FF7A03;}
 
+
 /* ----------IMAGES ------------ */
 
 img {
     display: block;
-    margin: 4em auto;
+    margin: auto;
     padding: 0;
     max-width: 100% }
 
 .banner {
-    width: 150%;
-    background-position: l;
-    }
+    width: 100%;
+    display: block;}
+
+.banner> .banner-image {
+    width: 100%;
+    display: block;}
+
+
     
 
 /*----NAVIGATION-----*/
@@ -83,14 +93,14 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #fff;
-    padding: 1em 0;}
+    padding: 1em 0 0em 0;}
     
 
 nav ul  {
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
-    letter-spacing: 1px;}
+    letter-spacing: 2.5px;}
 
 nav ul li {
     display: inline;
@@ -105,6 +115,50 @@ nav a:visited {
 
 nav a:hover {
     color: #FFE822 ;}
+
+.ref {
+    font-size: 0.5em;}
+
+/*---------TABLE--------*/
+
+table {
+    font-size: 1em;
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border: 4px;
+    margin-bottom: 1em;}
+
+th {
+    color: #FF7A03;
+    font-weight: normal;
+    text-align: center;
+    background: #fff;}
+
+th, td { 
+    font-size: 0.6em;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: justify;}
+
+/*------FOOTER------*/
+
+hr {
+    margin: 1em 0;
+    height: 1px;
+    background-color: #000;
+    color: #002;
+    border: 0 none; }
+
+.icons {
+    text-align: center;}
+    
+.icons img {
+    display: inline-block;}
+
+
+
 
 
 
