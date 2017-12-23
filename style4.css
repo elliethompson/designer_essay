@@ -1,0 +1,164 @@
+/* ------ CSS RESET ------ */
+ 
+* {
+    padding:0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    }
+
+/* ------ BODY -------*/
+
+body { 
+    width: 100%;
+    font-family: 'Open Sans', serif;
+    margin: auto;
+    background: #fff;
+    color:#000;}
+
+p,blockqoute {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;}
+
+/* -------HEADERS ------*/
+
+header {margin: 4em 0em 4em 0}
+
+h2 { font-weight: normal;
+    color: #FFE822;
+    text-align: center;}
+
+
+h4 {
+    font-weight: normal;
+    color: #000;
+    text-align: center;}
+
+/*------- HEADERS, BLOCKQOUTE & PARAGRAPHS --------*/
+
+
+h2 { font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top:2em;
+    font-style: normal;
+    text-transform: uppercase}
+
+h4 { font-size: 1em;
+    font-style: italic;
+    margin-top: 1.5em;
+    margin-bottom:1.5em;}
+   
+p { margin-bottom: 1.7em;
+    line-height: 1.5;
+    font-size: 1em;
+    text-align: justify;}
+
+
+blockquote {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-style:italic;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    hanging-punctuation: first;
+    color: #FF7A03;}
+
+
+/* ----------IMAGES ------------ */
+
+img {
+    display: block;
+    margin: auto;
+    padding: 0;
+    max-width: 100% }
+
+.banner {
+    width: 100%;
+    display: block;}
+
+.banner> .banner-image {
+    width: 100%;
+    display: block;}
+
+
+    
+
+/*----NAVIGATION-----*/
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 1em 0 0em 0;}
+    
+
+nav ul  {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2.5px;}
+
+nav ul li {
+    display: inline;
+    margin: 11px;}
+
+nav a:link {
+    color: #000;
+    text-decoration: none;}
+
+nav a:visited {
+    color: #000;}
+
+nav a:hover {
+    color: #FFE822 ;}
+
+.ref {
+    font-size: 0.5em;}
+
+/*---------TABLE--------*/
+
+table {
+    font-size: 1em;
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border: 4px;
+    margin-bottom: 1em;}
+
+th {
+    color: #FF7A03;
+    font-weight: normal;
+    text-align: center;
+    background: #fff;}
+
+th, td { 
+    font-size: 0.6em;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: justify;}
+
+/*------FOOTER------*/
+
+hr {
+    margin: 1em 0;
+    height: 1px;
+    background-color: #000;
+    color: #002;
+    border: 0 none; }
+
+.icons {
+    text-align: center;}
+    
+.icons img {
+    display: inline-block;}
+
+
+
+
+
+
